@@ -1,0 +1,223 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: steelblue;
+   
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.buttonbro{
+    background-color: steelblue;
+}
+.buttonbro:hover{
+    cursor: pointer;
+}
+.in:hover{
+    cursor: pointer;
+}
+.in{
+    background-color: steelblue;
+}
+.butstart {
+    background-color: steelblue;
+}
+.butstart:hover{
+    cursor: pointer;
+}
+
+/* .div-oddiy{
+    /* display: none; */
+/* } */
+
+.container{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    border: steelblue 2px solid;
+    text-align: center;
+    border-radius: 15px;
+    background-color: white;
+    
+}
+.task-bar {
+    margin: 10px;
+    border: 2px;
+    border-radius: 15px 14px;
+    padding: 10px;
+    background-color: steelblue;
+}
+.mn2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    padding-left: 100px;
+}
+.prostoy {
+    border: 8px 6px;
+    background-color: steelblue;
+    padding-bottom: 2px;
+}
+.prostoy:hover{
+    cursor: pointer;
+}
+.malumotlar {
+    margin-right: 5px;
+    margin-left: 900px;
+    size: 99px 48px;
+    font: bold;
+    position: relative;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+.tbale{
+    margin-top: auto;
+    margin-left: 250px;
+    margin-bottom: 15px;
+}
+.menu{
+    color: white;
+    padding: 20px;
+    
+}
+.btn{
+    cursor: pointer;
+    color: white;
+    background-color: steelblue;
+    border: 1px solid steelblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+}
+.btn1{
+    margin: 15px;
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.par{
+    background-color: steelblue;
+    color: white;
+    border-radius: 50px 0px 50px 0px;
+    width: 200px;
+    margin-left: 250px;
+    padding: 15px;
+}
+
+#help1{
+    display: none;
+    margin-bottom: 50px;
+}
+
+#help2{
+    display: none;
+    margin-bottom: 50px;
+}
+
+#help3{
+    display: none;
+    margin-bottom: 50px;
+}
+#dis_none{
+    display: none;
+}
+#str{
+    display: none;
+}
+.butstart{
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+}
+.radio{
+    margin: 10px;
+}
+
+#oddiy{
+    background-color: steelblue;
+    color: white;
+    padding: 15px;
+    border-radius: 50px 0px 50px 0px;
+}
+#rangeeprostoi{
+    padding: 5px;
+}
+.plus{
+    width: auto;
+    height: auto;
+}
+.minus{
+    width: -100px;
+}
+.plus{
+    cursor: pointer;
+    width: 40px;
+    border: none;
+    margin-left: 10px;
+}
+.minus{
+    cursor: pointer;
+    width: 60px;
+    height: 40px;
+    border: none;
+    margin-left: 5px;
+}
+.in{
+    width: 65px;
+    color:black;
+    border: none;
+}
+#sekundpm1,#sekundpm2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+.radiol{
+    margin: 10px;
+}
+#h1{
+    margin-left: 500px;
+     margin-top: 50px;
+    
+}
+
+.v_comment{
+display: inline-block;
+/* vertical-align: top; */
+margin: 4px;
+padding: 100px 160px;
+border: 1px solid #c7d7ec;
+border-radius: 10px;
+background: #edf2f9;
+font-weight: 400;
+cursor: auto;
+width: 180px;
+height: 80px;
+}
+.pusk{
+    display: none;
+}
+.input_answer{
+font-size: 35pt;
+max-width: 170px;
+text-align: center;
+border-radius: 10px;
+height: 80px;
+margin: 10px;
+padding: 10px;
+outline: none;
+;
+}
+.button_blue{
+    background:#4267b2;
+    cursor: pointer;
+}
+.tab{
+    margin-left: 250px;
+    font-size: 50px;
+    color: red;
+}

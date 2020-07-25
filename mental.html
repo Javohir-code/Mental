@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental | Mentalni arifmetikani o`rganamiz!</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   <h1 id="h1">MENTAL ARITHMETIC</h1>
+    <div id="container1" class="container">
+                <br>
+
+        <br><br>
+        <div class="menu" id="menu">
+            <button id="stme" class="btn">Simple addition and subtraction</button><br><br>
+            <button id="stme1" class="btn">Brother Aid Method</button><br><br>
+            <button id="stme2" class="btn">Friend Aid Method</button><br><br>
+            <button id="stme3" class="btn">Simplified Method(Combined)</button><br><br>
+        </div>
+        <div id="dis_none">
+
+        <span id="oddiy">SIMPLE ADDITION AND SUBTRACTION</span><br><br><br>
+        <span id="rangeprostoi">10</span><br>
+        <input id="rangeeprostoi" type="range" min="5" max="15" value="10"><br><br>
+        <span>TERMS :</span>
+        <br>       
+        <td><input id="rad2" class="radiol" type="radio" checked value="2" name="metod1">2</td>
+        <td><input id="rad3" class="radiol" type="radio" value="3" name="metod1">3</td>
+        <td><input id="rad4" class="radiol" type="radio" value="4" name="metod1">4</td>
+        <td><input id="rad5" class="radiol" type="radio" value="5" name="metod1">5</td><br>
+    <br>
+    <span>RANGE :</span>
+        <br>
+        <td><input class="radio" type="radio" checked value="1_9" name="metod2">1-9</td>
+        <td><input class="radio" type="radio" value="10_99" name="metod2">10-99</td>
+        <td><input class="radio" type="radio" value="100_999" name="metod2">100-999</td>
+        <td><input class="radio" type="radio" value="1_20" name="metod2">1-20</td>  
+        <br><br>
+        
+
+        <span id="sekundpm1">0.75</span><span id="sekundpm2">sec</span><br>
+        <button id="inm" class="in"><<</button>
+        <button id="inp" class="in">>></button><br><br>
+        <img id="plus" class="plus" src="plus_green.jpg" alt="">
+        <img id="minus" class="minus" src="minus.jpg" alt=""><br><br>
+        <button class="butstart" id="butstart">START</button><br>
+    
+
+    <br>
+    <div id="str">
+            <h3>00:00:00</h3>
+            <p id="paragrf" class="paragrof">
+                <span id="spanpar"></span>
+                <input type="text" style="border: slateblue 2px  solid;">
+                <br><br><button class="buttonbro">JAVOB</button>
+            </p><br><br>
+        </div>
+         </div>
+
+         <div id="help1" class="brata">
+             <p id="btn1" class="par"> METHOD : BROTHER AID</p><br>
+             <button class="btn1">4 + 1</button>
+             <button class="btn1">4 + 2</button>
+             <button class="btn1">4 + 3</button><br>
+             <button class="btn1">5 + 1</button>
+             <button class="btn1">5 + 2</button>
+             <button class="btn1">5 + 3</button>
+         </div>
+
+         <div id="help2" class="brata">
+            <p id="btn1" class="par"> METHOD : FRIEND AID</p><br>
+            <button class="btn1">9 + 1</button>
+            <button class="btn1">9 + 2</button>
+            <button class="btn1">9 + 3</button><br>
+            <button class="btn1">10 + 1</button>
+            <button class="btn1">10 + 2</button>
+            <button class="btn1">10 + 3</button>
+        </div>
+
+        <div id="help3" class="brata">
+            <p id="simple" class="par"> METHOD : COMBINED</p><br>
+            <button id="simple_btn" class="btn1">5 + 6</button>
+            <button id="simple_btn" class="btn1">5 + 7</button>
+            <button id="simple_btn" class="btn1">5 + 8</button><br>
+            <button id="simple_btn" class="btn1">5 - 6</button>
+            <button id="simple_btn" class="btn1">5 - 7</button>
+            <button id="simple_btn" class="btn1">5 - 8</button>
+        </div>
+    
+        <div class="pusk" id="pusk" >
+                <table class="tab">
+                    <tr>
+                        <td id="hour">00</td>
+                        <td id="Bchi">:</td>
+                        <td id="minute">00</td>
+                        <td id="Ichi">:</td>
+                        <td id="second">00</td>
+                    </tr>
+                </table>
+            <div class="v_comment">
+                    <p><span id="numbers" style="color: green; font-size: 80px;">500</span></p>
+            </div><br>
+            <input type="text" class="input_answer" autofocus = "autofocus"><br>
+            <input type="button" value="Answer" class="button_blue" style="width: 200px; height: 40px; color: rgb(250, 250, 250);">
+        </div>
+
+     </div>
+     <script src="json.js"></script>
+<script src="script.js">
+    
+</script>
+</body>
+</html>
